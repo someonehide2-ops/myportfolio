@@ -1,20 +1,26 @@
 /* ---------- Colors and fonts: edit them here ---------- */
 :root {
-    --bg: #ffffff;
-    /* page background */
-    --panel: #e8f3ff;
-    /* light blue boxes */
+    --bg: #eaf4ff;
+    /* page background: very light blue */
     --ink: #0b2545;
-    /* main text and borders */
+    /* main text */
     --muted: #3d5a80;
     /* softer text */
-    --accent: #8ec5ff;
-    /* light blue shadows and highlights */
-    --link: #1553a6;
-    /* link color (dark enough to read) */
+    --accent: #2b86d9;
+    /* your name, links and highlights: light blue */
+    --line: #b9d6f2;
+    /* thin lines */
+    --tag: #cfe6fb;
+    /* small skill labels */
+    /* leave the --display and --body font lines as they are */
+}
 
-    --heading-font: "Press Start 2P", "Courier New", monospace;
-    --body-font: "VT323", "Courier New", monospace;
+--heading-font: "Press Start 2P",
+"Courier New",
+monospace;
+--body-font: "VT323",
+"Courier New",
+monospace;
 }
 
 /* Dark mode: used automatically if the visitor's device is in dark mode */
